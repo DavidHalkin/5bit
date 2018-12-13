@@ -1,0 +1,17 @@
+$theme-colors: (
+   "custom_color": darkmagenta,
+   "custom_gray": #f6f5f5
+);
+
+$font-family-base: Myriad_Pro;
+
+$input-focus-box-shadow: none;
+$body-color: #474747;
+$grid-breakpoints: (
+  xs: 0,
+  smm: 400px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
