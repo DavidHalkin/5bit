@@ -3,10 +3,10 @@ $theme-colors: (
    "custom_gray": #f6f5f5
 );
 
-$font-family-base: Myriad_Pro;
-
 $input-focus-box-shadow: none;
-$body-color: #474747;
+$body-color: #58595b;
+$border-radius:       6px;
+$input-border-radius: 6px;
 $grid-breakpoints: (
   xs: 0,
   smm: 400px,
