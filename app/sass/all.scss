@@ -13,16 +13,15 @@ body{
 	background: #fff;
 	height: 100%;
 }
-.article_hight{
-	min-height: 100vh;
-	padding: 90px 0;
+.ie_article_holder{
+	display: flex;
+	flex-flow:column;
 }
 .article{
 	background:url(../images/bg.png) no-repeat 50% 0;
 	background-size: cover;
-	
-	
-	overflow: hidden;
+	min-height: 100vh;
+	padding: 77px 0 0;
 	.img_logo{
 		max-width: 117px;
 	}
@@ -33,11 +32,35 @@ body{
 		line-height: 60px;
 		font-weight: 700;
 		padding-bottom: 45px;
+		@include media-breakpoint-down(lg) {
+			font-size: 50px;
+			line-height: 52px;
+			padding-bottom: 25px;
+		}
+		@include media-breakpoint-down(md) {
+			font-size: 35px;
+			line-height: 37px;
+		}
 	}
 	p{
 		margin: 0;
 		font-size: 30px;
 		line-height: 32px;
+		@include media-breakpoint-down(lg){
+			padding-bottom: 30px;
+		}
+		@include media-breakpoint-down(md){
+			font-size: 25px;
+			line-height: 27px;
+		}
+	}
+	.content_middle{
+		flex-grow:1;
+		max-width: 100%;
+	}
+	.content_bottom{
+		flex: 0 0 100%;
+		max-width: 100%;
 	}
 }
 .bar_tab{
@@ -59,25 +82,16 @@ body{
 	}
 }
 .bar_tab_body{
-	position: relative;
-	z-index: 1;
-	padding:30px 10px 10px;
-	&:before{
-		content: '';
-		width: 9999px;
-		height: 100%;
-		position: absolute;
-		top: 0;
-		left: 50%;
-		transform:translateX(-50%);
-		background: rgba(#213f80,.6);
-		z-index: -1;
-	}
+	background: rgba(#213f80,.6);
+	padding:30px 0 10px;
+	flex: 0 0 100%;
+	max-width: 100%;
 }
 .line_rate{
 	background: #e0e0e0;
+	padding:10px 0;
 	span{
-		padding:10px;
+		padding:0 10px;
 		font-size: 14px;
 		line-height: 16px;
 		color: #969696;

@@ -1,5 +1,20 @@
+
+@import
+  '_custom_bootstrap_vatiables.scss',
+  '../../bower_components/bootstrap/scss/_functions.scss',
+  '../../bower_components/bootstrap/scss/_variables.scss',
+  '../../bower_components/bootstrap/scss/_mixins.scss';
 body{
   font-family: 'Exo 2', sans-serif;
+}
+.with_images_select{
+  width: 100%;
+  .jcf-select{
+    .jcf-select-text{
+      margin-left: 5px;
+      padding-left: 40px;
+    }
+  }
 }
 .jcf-select{
   background: #fff;
@@ -9,6 +24,7 @@ body{
   height: 42px;
   margin-bottom: 0;
   width: 100%;
+  display: block;
   cursor: pointer !important;
   .jcf-select-text{
     font:700 18px/40px 'Exo 2', sans-serif;
@@ -175,6 +191,10 @@ body{
   li{
     font-size: 30px;
     padding: 0 15px;
+    @include media-breakpoint-down(sm) {
+      font-size: 20px;
+      padding: 0 10px;
+    }
     a{
       color: #6495bf;
       font-weight: 800;
@@ -186,4 +206,7 @@ body{
       }
     }
   }
+}
+.minw_0{
+  min-width: 0;
 }

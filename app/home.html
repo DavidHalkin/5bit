@@ -53,17 +53,19 @@
 					</ul>
 				</div>
 			</nav>
-		</div>
-		<div class="container-fluid">
-			<div class="article row justify-content-center align-items-center">
-				<div class="col-md-12 text-center bg-danger article_hight d-flex">
-					<img src="images/b.png" alt="" class="img_logo">
-					<h1>Платформа для торговли <br>криптовалютой</h1>
-					<p>Моментальная покупка и продажа криптовалюты с низкой комиссией</p>
-					<div class="bar_tab">
-						<div class="bar_tab_title">
+			<div class="article d-flex flex-column article_fix_ie_js">
+				<div class="text-center content_middle d-flex justify-content-center align-items-center">
+					<div class="content_middle_text p-3">
+						<img src="images/b.png" alt="" class="img_logo">
+						<h1>Платформа для торговли <br>криптовалютой</h1>
+						<p>Моментальная покупка и продажа криптовалюты с низкой комиссией</p>
+					</div>
+				</div>
+				<div class="content_bottom">
+					<div class="bar_tab d-flex flex-wrap justify-content-center">
+						<div class="bar_tab_title col-xl-10 col-lg-12">
 							<div class="d-flex flex-wrap justify-content-center align-items-center">
-								<p>Выберите желаемую операцию: </p>
+								<p class="d-none d-lg-block pb-0">Выберите желаемую операцию: </p>
 								<ul class="nav nav_tablist d-flex align-items-center bordered" id="myTab" role="tablist">
 									<li class="nav-item">
 										<a class="active text-uppercase" id="buy-tab" data-toggle="tab" href="#buy" role="tab" aria-controls="buy" aria-selected="true">Купить</a>
@@ -75,75 +77,79 @@
 								</ul>
 							</div>
 						</div>
-						<div class="bar_tab_body">
-							<div class="tab-content " id="myTabContent">
-								<div class="tab-pane fade show active" id="buy" role="tabpanel" aria-labelledby="buy-tab">
-									<form action="#">
-										<div class="holder_custom">
-											<div class="row">
-												<div class="col  pb-3">
-													<select class="present" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
-														<option data-image="images/card_ico.png" value="v4">lorem</option>
-														<option data-image="images/test_ico.png" value="v5">Bank Card2</option>
-														<option data-image="images/card_ico.png" value="v6">Bank Card</option>
-													</select>
-												</div>
-												<div class="col pb-3">
-													<div class="input-group input_group">
-														<div class="input-group-prepend ">
-															<span class="input-group-text ">
-																<span class="text-truncate">Отдаёте</span>
-															</span>
+						<div class="bar_tab_body d-flex justify-content-center">
+							<div class=" col-xl-10 col-lg-12 ">
+								<div class="tab-content" id="myTabContent">
+									<div class="tab-pane fade show active" id="buy" role="tabpanel" aria-labelledby="buy-tab">
+										<form action="#">
+											<div class="holder_custom">
+												<div class="row justify-content-center ">
+													<div class="col-xl col-lg-4 pb-3 d-flex minw_0">
+														<div class="with_images_select text-center minw_0">
+															<select class="present" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+																<option data-image="images/card_ico.png" value="v4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus adipisci tempora repellat iste, sapiente natus laudantium modi placeat officiis eos tenetur quod tempore dolorem dignissimos, accusamus inventore quis asperiores porro?</option>
+																<option data-image="images/test_ico.png" value="v5">Bank Card2</option>
+																<option data-image="images/card_ico.png" value="v6">Bank Card</option>
+															</select>
 														</div>
-														<input type="text" class="form-control text-right" aria-label="Text input with dropdown button" value="0.337453">
-														<div class="input-group-append">
-															<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Eur</button>
-															<div class="dropdown-menu dropdown-menu-right">
-																<a class="dropdown-item" href="#">Action</a>
-																<a class="dropdown-item" href="#">Another action</a>
-																<a class="dropdown-item" href="#">Something else here</a>
-																<div role="separator" class="dropdown-divider"></div>
-																<a class="dropdown-item" href="#">Separated link</a>
+													</div>
+													<div class="col-xl col-lg-4 pb-3">
+														<div class="input-group input_group">
+															<div class="input-group-prepend ">
+																<span class="input-group-text ">
+																	<span class="text-truncate">Отдаёте</span>
+																</span>
+															</div>
+															<input type="text" class="form-control text-right" aria-label="Text input with dropdown button" value="0.337453">
+															<div class="input-group-append">
+																<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Eur</button>
+																<div class="dropdown-menu dropdown-menu-right">
+																	<a class="dropdown-item" href="#">Action</a>
+																	<a class="dropdown-item" href="#">Another action</a>
+																	<a class="dropdown-item" href="#">Something else here</a>
+																	<div role="separator" class="dropdown-divider"></div>
+																	<a class="dropdown-item" href="#">Separated link</a>
+																</div>
 															</div>
 														</div>
 													</div>
-												</div>
-												<div class="col  pb-3">
-													<div class="input-group input_group">
-														<div class="input-group-prepend ">
-															<span class="input-group-text ">
-																<span class="text-truncate">Получаете</span>
-															</span>
-														</div>
-														<input type="text" class="form-control text-right" aria-label="Text input with dropdown button" value="0">
-														<div class="input-group-append">
-															<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BTC</button>
-															<div class="dropdown-menu dropdown-menu-right">
-																<a class="dropdown-item" href="#">Action</a>
-																<a class="dropdown-item" href="#">Another action</a>
-																<a class="dropdown-item" href="#">Something else here</a>
-																<div role="separator" class="dropdown-divider"></div>
-																<a class="dropdown-item" href="#">Separated link</a>
+													<div class="col-xl col-lg-4  pb-3">
+														<div class="input-group input_group">
+															<div class="input-group-prepend ">
+																<span class="input-group-text ">
+																	<span class="text-truncate">Получаете</span>
+																</span>
+															</div>
+															<input type="text" class="form-control text-right" aria-label="Text input with dropdown button" value="0">
+															<div class="input-group-append">
+																<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BTC</button>
+																<div class="dropdown-menu dropdown-menu-right">
+																	<a class="dropdown-item" href="#">Action</a>
+																	<a class="dropdown-item" href="#">Another action</a>
+																	<a class="dropdown-item" href="#">Something else here</a>
+																	<div role="separator" class="dropdown-divider"></div>
+																	<a class="dropdown-item" href="#">Separated link</a>
+																</div>
 															</div>
 														</div>
 													</div>
-												</div>
-												<div class="col-auto  pb-3">
-													<button class="btn btn-block btn_gray">ОБМЕН</button>
+													<div class="col-12 col-xl-auto col-lg-4 col-md-6 col-sm-8 pb-3">
+														<button class="btn btn-block btn_gray">ОБМЕН</button>
+													</div>
 												</div>
 											</div>
-										</div>
-									</form>
-								</div>
-								<div class="tab-pane fade" id="sell" role="tabpanel" aria-labelledby="sell-tab">
-									<div class="calc_form">
-										<form action="#">
-											2
 										</form>
 									</div>
+									<div class="tab-pane fade" id="sell" role="tabpanel" aria-labelledby="sell-tab">
+										<div class="calc_form">
+											<form action="#">
+												2
+											</form>
+										</div>
+									</div>
 								</div>
+								<p class="text-center hlp_txt">Мин 50 EUR - Макс 10000 EUR.   Наш резерв 62.28473 BTC.   Детали комиссии:   Наша омиссия: 5%    Bank Card: 4.2%   Сеть: 0.0006</p>
 							</div>
-							<p class="text-center hlp_txt">Мин 50 EUR - Макс 10000 EUR.   Наш резерв 62.28473 BTC.   Детали комиссии:   Наша омиссия: 5%    Bank Card: 4.2%   Сеть: 0.0006</p>
 						</div>
 					</div>
 					<div class="line_rate">
@@ -155,6 +161,12 @@
 							<span>LTC/USD 345.03</span>
 							<span>LTC/EUR 250.64</span>
 							<span>XRP/USD 0.95</span>
+							<span>XRP/EUR 0.64</span>
+							<span>XRP/EUR 0.64</span>
+							<span>XRP/EUR 0.64</span>
+							<span>XRP/EUR 0.64</span>
+							<span>XRP/EUR 0.64</span>
+							<span>XRP/EUR 0.64</span>
 							<span>XRP/EUR 0.64</span>
 						</div>
 					</div>
