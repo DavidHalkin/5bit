@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link href="https://fonts.googleapis.com/css?family=Exo+2:400,700,800&amp;subset=cyrillic" rel="stylesheet">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="css/custom_bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/libs.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/all.css" />
+
+		<title>#</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="w1">
+				<nav class="navbar-dark navbar navbar-expand-xl header fixed-top">
+					<a class="navbar-brand" data-fancybox="forgot" data-src="#forgot" href="javascript:;"><img src="images/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav ml-auto navbar_main">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Главная</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Купить/продать </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Связь с нами</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">О компании </a>
+							</li>
+						</ul>
+						<ul class="navbar-nav navbar_sub">
+							<li class="nav-item">
+								<a data-fancybox="log_in" data-src="#log_in" href="javascript:;" class="nav-link">Войти</a>
+							</li>
+							<li class="nav-item">
+								<a data-fancybox="reg" data-src="#reg" href="javascript:;" class="nav-link">Регистрация</a>
+							</li>
+							<li class="nav-item lang_link dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">rus</a>
+								<div class="dropdown-menu dropdown-menu-right lang_menu" aria-labelledby="navbarDropdownMenuLink">
+									<a class="dropdown-item" href="#">de</a>
+									<a class="dropdown-item" href="#">ua</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<div class="title_block text-center container-fluid" style="background: url(../images/bg_4.jpg) no-repeat 50% 0;">
+					<div class="row justify-content-center">
+						<div class="col-lg-9">
+							<h1>Обмен криптовалюты</h1>
+						</div>
+					</div>
+				</div>
+				<div class="exchange_block container-fluid pb-5 exchange_add">
+					<div class="row justify-content-center">
+						<div class="col-lg-5 pt-0 pt-md-5">
+							<form action="#">
+								<p class="text-center pb-5">Добавьте адрес вашего кошелька, перед тем, <br>как мы сможем начать обмен!</p>
+								<div class="form-group mb-4 pt-0 pt-md-5">
+									<input type="text" class="form-control form_control has_error" placeholder="Введите адрес вашего кошелька">
+								</div>
+								<div class="pl-0 pr-0 pl-md-3 pr-md-3">
+									<div class="custom_checkbox">
+										<input type="checkbox" id="qw">
+										<label for="qw">Подтверждаю, что это адрес моего кошелька</label>
+									</div>
+								</div>
+								<div class="row justify-content-center mt-4 pb-5">
+									<div class="col-md-6">
+										<button class="btn btn_blue btn-block text-uppercase">Подтвердить</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer pl-3 pr-3 justify-content-center d-flex flex-column align-items-center">
+			<strong class="logo"><a href="#"><img src="images/logo_f.png" alt=""></a></strong>
+			<ul>
+				<li class="active"><a href="#">Главная</a></li>
+				<li><a href="#">Купить/продать</a></li>
+				<li><a href="#">Связь с нами</a></li>
+				<li><a href="#">О компании</a></li>
+			</ul>
+			<span class="copy">© 2018 5bit.me. All rights reserved 5bit.me.</span>
+		</div>
+		<div style="display: none;" id="reg" class="small_modal cstm_modal">
+			<form action="#">
+				<h2 class="text-uppercase text-center">регистрация</h2>
+				<div class="form-group mb-4"><input type="email" class="form-control form_control " placeholder="Ваша эл. почта"></div>
+				<div class="form-group mb-4"><input type="password" class="form-control form_control has_error" placeholder="Ваш пароль"></div>
+				<div class="form-group mb-3"><input type="password" class="form-control form_control" placeholder="Подтвердите пароль"></div>
+				<div class="pl-0 pr-0 pl-md-3 pr-md-3">
+					<div class="custom_checkbox">
+						<input type="checkbox" id="test1" />
+						<label for="test1">Соглашаюсь с <a href="#">Правила сервиса 5Bit</a></label>
+					</div>
+				</div>
+				<button class="btn btn-block btn_blue btn_modal mt-5">ПРОДОЛЖИТЬ</button>
+			</form>
+		</div>
+		<div style="display: none;" id="forgot" class="small_modal cstm_modal">
+			<form action="#">
+				<h2 class="text-uppercase text-center">Забыли пароль?</h2>
+				<div class="form-group mb-4"><input type="email" class="form-control form_control" placeholder="Ваша эл. почта"></div>
+				<div class="pl-0 pr-0 pl-md-3 pr-md-3">
+					<p class="help_txt">Мы отправим вам новый пароль на Ваш зарегистрированный адрес электронной почты.</p>
+				</div>
+				<button class="btn btn-block btn_blue btn_modal mt-5">ОТПРАВИТЬ</button>
+			</form>
+		</div>
+		<div style="display: none;" id="log_in" class="small_modal cstm_modal">
+			<form action="#">
+				<h2 class="text-uppercase text-center">Авторизация</h2>
+				<div class="form-group mb-4"><input type="email" class="form-control form_control " placeholder="Ваша эл. почта"></div>
+				<div class="form-group mb-0"><input type="password" class="form-control form_control has_error" placeholder="Ваш пароль"></div>
+				<div class="pl-0 pr-0 pl-md-3 pr-md-3">
+					<a href="#" class="link_forgot">Забыли пароль?</a>
+				</div>
+				<div class="captcha_box pt-4 pb-4">
+					<img src="images/captcha.jpg" alt="" class="img-fluid">
+				</div>
+				<div class="pl-0 pr-0 pl-md-3 pr-md-3">
+					<p class="help_txt">Зарегистрировавшись, вы соглашаетесь с <a href="#">Правилами Сервиса</a> и <a href="#">Политика конфиденциальности</a> </p>
+				</div>
+				<button class="btn btn-block btn_blue btn_modal mt-4">ВОЙТИ</button>
+			</form>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/jcf.js"></script>
+		<script src="js/jcf.select.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

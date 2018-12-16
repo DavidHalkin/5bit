@@ -21,6 +21,7 @@ body{
     }
 }
 
+
 .with_images_select{
   width: 100%;
   .jcf-select{
@@ -202,6 +203,7 @@ body{
       }
     }
   }
+
   li{
     font-size: 30px;
     padding: 0 15px;
@@ -217,6 +219,21 @@ body{
       &:hover{text-decoration: none;}
       &.active{
         color: #fff;
+      }
+    }
+  }
+  &.nav_tablist_inner{
+    li{
+      a{
+        color: #36679d;
+        font-weight: 400;
+        text-decoration: underline;
+        &:hover{
+          text-decoration: none;
+        }
+        &.active{
+          font-weight: 700;
+        }
       }
     }
   }
@@ -248,6 +265,8 @@ body{
 .btn_blue{
   background: #59a39d;
   color: #fff;
+    font-size: 18px;
+  font-weight: 700;
 }
 .btn_modal{
   font-size: 18px;
@@ -256,6 +275,9 @@ body{
 .fancybox-close-small{
   color: #386aa0 !important;
   padding: 5px !important;
+}
+textarea.form_control{
+  height: 122px;
 }
 .form_control{
   height: 42px;
@@ -317,7 +339,7 @@ body{
     content: '';
     position: absolute;
     left: 0;
-    top: 7px;
+    top: 6px;
     width: 16px;
     height: 16px;
     border: 2px solid #818181;
@@ -331,7 +353,7 @@ body{
   [type="checkbox"]:checked + label:after {
     content: '';
     position: absolute;
-    top: 11px;
+    top: 10px;
     left: 5px;
     transition: all .2s;
     width: 6px;
@@ -363,4 +385,19 @@ body{
   [type="checkbox"]:disabled + label {
     color: #aaa;
   }
+}
+// footer at bottom 
+.wrapper{
+  min-height: 100%;
+  .w1{
+    padding-bottom: 372px;
+  }
+}
+.jcf-select-drop .jcf-option-hideme{
+  display: none !important;
+}
+.jcf-option-hideme {
+  color: #bfbfbf;
+  font-size: 18px;
+  font-weight: 400;
 }

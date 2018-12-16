@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link href="https://fonts.googleapis.com/css?family=Exo+2:400,700,800&amp;subset=cyrillic" rel="stylesheet">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="css/custom_bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/libs.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/all.css" />
+
+		<title>#</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="w1">
+				<nav class="navbar-dark navbar navbar-expand-xl header fixed-top">
+					<a class="navbar-brand" data-fancybox="forgot" data-src="#forgot" href="javascript:;"><img src="images/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav ml-auto navbar_main">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Главная</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Купить/продать </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Связь с нами</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">О компании </a>
+							</li>
+						</ul>
+						<ul class="navbar-nav navbar_sub">
+							<li class="nav-item">
+								<a data-fancybox="log_in" data-src="#log_in" href="javascript:;" class="nav-link">Войти</a>
+							</li>
+							<li class="nav-item">
+								<a data-fancybox="reg" data-src="#reg" href="javascript:;" class="nav-link">Регистрация</a>
+							</li>
+							<li class="nav-item lang_link dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">rus</a>
+								<div class="dropdown-menu dropdown-menu-right lang_menu" aria-labelledby="navbarDropdownMenuLink">
+									<a class="dropdown-item" href="#">de</a>
+									<a class="dropdown-item" href="#">ua</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<div class="title_block text-center container-fluid" style="background: url(../images/bg_4.jpg) no-repeat 50% 0;">
+					<div class="row justify-content-center">
+						<div class="col-lg-9">
+							<h1>Обмен криптовалюты</h1>
+						</div>
+					</div>
+				</div>
+				<div class="exchange_block container-fluid pb-5">
+					<div class="row justify-content-center">
+						<div class="col-xl-11 col-lg-11">
+							<div class="bar_tab row justify-content-center">
+								<div class="bar_tab_title col-xl-10 col-lg-12">
+									<div class="text-center">
+										<p class="pb-0">Выберите желаемую операцию: </p>
+										<ul class="nav nav_tablist d-inline-flex align-items-center nav_tablist_inner" id="myTab" role="tablist">
+											<li class="nav-item">
+												<a class="active text-uppercase" id="buy-tab" data-toggle="tab" href="#buy" role="tab" aria-controls="buy" aria-selected="true">Купить</a>
+											</li>
+											<li>или</li>
+											<li class="nav-item">
+												<a class="text-uppercase" id="sell-tab" data-toggle="tab" href="#sell" role="tab" aria-controls="sell" aria-selected="false">Продать</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="bar_tab_body d-flex justify-content-center">
+									<div class="col-xl-10 col-lg-12">
+										<div class="tab-content" id="myTabContent">
+											<div class="tab-pane fade show active  pl-1 pr-1 pl-xl-5 pr-xl-5" id="buy" role="tabpanel" aria-labelledby="buy-tab">
+												<form action="#">
+													<div class="holder_custom">
+														<div class="row justify-content-center pb-0 pb-md-3 mb-2">
+															<div class="col-xl col-lg-4 pb-3 d-flex minw_0">
+																<div class="with_images_select text-center minw_0">
+																	<select class="present" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+																		<option data-image="images/card_ico.png" value="v4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus adipisci tempora repellat iste, sapiente natus laudantium modi placeat officiis eos tenetur quod tempore dolorem dignissimos, accusamus inventore quis asperiores porro?</option>
+																		<option data-image="images/test_ico.png" value="v5">Bank Card2</option>
+																		<option data-image="images/card_ico.png" value="v6">Bank Card</option>
+																	</select>
+																</div>
+															</div>
+															<div class="col-xl col-lg-4 pb-3">
+																<div class="input-group input_group">
+																	<div class="input-group-prepend ">
+																		<span class="input-group-text ">
+																			<span class="text-truncate">Отдаёте</span>
+																		</span>
+																	</div>
+																	<input type="text" class="form-control text-right" aria-label="Text input with dropdown button" value="0.337453">
+																	<div class="input-group-append">
+																		<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Eur</button>
+																		<div class="dropdown-menu dropdown-menu-right">
+																			<a class="dropdown-item" href="#">Action</a>
+																			<a class="dropdown-item" href="#">Another action</a>
+																			<a class="dropdown-item" href="#">Something else here</a>
+																			<div role="separator" class="dropdown-divider"></div>
+																			<a class="dropdown-item" href="#">Separated link</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-xl col-lg-4  pb-3">
+																<div class="input-group input_group">
+																	<div class="input-group-prepend ">
+																		<span class="input-group-text ">
+																			<span class="text-truncate">Получаете</span>
+																		</span>
+																	</div>
+																	<input type="text" class="form-control text-right" aria-label="Text input with dropdown button" value="0">
+																	<div class="input-group-append">
+																		<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BTC</button>
+																		<div class="dropdown-menu dropdown-menu-right">
+																			<a class="dropdown-item" href="#">Action</a>
+																			<a class="dropdown-item" href="#">Another action</a>
+																			<a class="dropdown-item" href="#">Something else here</a>
+																			<div role="separator" class="dropdown-divider"></div>
+																			<a class="dropdown-item" href="#">Separated link</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<p class="hlp_txt">Мин 50 EUR - Макс 10000 EUR.   Наш резерв 62.28473 BTC.   Детали комиссии:   Наша омиссия: 5%    Bank Card: 4.2%   Сеть: 0.0006</p>
+													</div>
+												</form>
+											</div>
+											<div class="tab-pane fade  pl-1 pr-1 pl-xl-5 pr-xl-5" id="sell" role="tabpanel" aria-labelledby="sell-tab">
+												<form action="#">
+													<div class="holder_custom">
+														<div class="row justify-content-center pb-0 pb-md-3 mb-2">
+															<div class="col-xl col-lg-4 pb-3 d-flex minw_0">
+																<div class="with_images_select text-center minw_0">
+																	<select class="present" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+																		<option data-image="images/card_ico.png" value="v4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus adipisci tempora repellat iste, sapiente natus laudantium modi placeat officiis eos tenetur quod tempore dolorem dignissimos, accusamus inventore quis asperiores porro?</option>
+																		<option data-image="images/test_ico.png" value="v5">Bank Card2</option>
+																		<option data-image="images/card_ico.png" value="v6">Bank Card</option>
+																	</select>
+																</div>
+															</div>
+															<div class="col-xl col-lg-4 pb-3">
+																<div class="input-group input_group">
+																	<div class="input-group-prepend ">
+																		<span class="input-group-text ">
+																			<span class="text-truncate">Отдаёте</span>
+																		</span>
+																	</div>
+																	<input type="text" class="form-control text-right" aria-label="Text input with dropdown button" value="0.337453">
+																	<div class="input-group-append">
+																		<button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Eur</button>
+																		<div class="dropdown-menu dropdown-menu-right">
+																			<a class="dropdown-item" href="#">Action</a>
+																			<a class="dropdown-item" href="#">Another action</a>
+																			<a class="dropdown-item" href="#">Something else here</a>
+																			<div role="separator" class="dropdown-divider"></div>
+																			<a class="dropdown-item" href="#">Separated link</a>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<p class="hlp_txt">Мин 50 EUR - Макс 10000 EUR. </p>
+													</div>
+												</form>
+											</div>
+										</div>
+										<div class="tab_bottom pl-1 pr-1 pl-xl-5 pr-xl-5">
+											<ul class="data_list list-unstyled d-flex flex-wrap m-0 align-items-start">
+												<li>
+													<strong>BTC/EUR</strong>
+													<span>3882.73 1 </span>
+												</li>
+												<li>
+													<strong>BTC/EUR</strong>
+													<span>3882.73 2 </span>
+												</li>
+												<li>
+													<strong>BTC/EUR</strong>
+													<span>3882.73 3</span>
+												</li>
+												<li>
+													<strong>BTC/EUR</strong>
+													<span>3882.73 4 </span>
+												</li>
+												<li>
+													<strong>BTC/EUR</strong>
+													<span>3882.73 5</span>
+												</li>
+												<li>
+													<strong>BTC/EUR</strong>
+													<span>3882.73 6</span>
+												</li>
+												<li>
+													<strong>BTC/EUR</strong>
+													<span>3882.73 7</span>
+												</li>
+											</ul>
+											<div class="row justify-content-center mt-5">
+												<div class="col-md-4">
+													<button class="btn btn_blue btn-block text-uppercase">начать обмен</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer pl-3 pr-3 justify-content-center d-flex flex-column align-items-center">
+			<strong class="logo"><a href="#"><img src="images/logo_f.png" alt=""></a></strong>
+			<ul>
+				<li class="active"><a href="#">Главная</a></li>
+				<li><a href="#">Купить/продать</a></li>
+				<li><a href="#">Связь с нами</a></li>
+				<li><a href="#">О компании</a></li>
+			</ul>
+			<span class="copy">© 2018 5bit.me. All rights reserved 5bit.me.</span>
+		</div>
+		<div style="display: none;" id="reg" class="small_modal cstm_modal">
+			<form action="#">
+				<h2 class="text-uppercase text-center">регистрация</h2>
+				<div class="form-group mb-4"><input type="email" class="form-control form_control " placeholder="Ваша эл. почта"></div>
+				<div class="form-group mb-4"><input type="password" class="form-control form_control has_error" placeholder="Ваш пароль"></div>
+				<div class="form-group mb-3"><input type="password" class="form-control form_control" placeholder="Подтвердите пароль"></div>
+				<div class="pl-0 pr-0 pl-md-3 pr-md-3">
+					<div class="custom_checkbox">
+						<input type="checkbox" id="test1" />
+						<label for="test1">Соглашаюсь с <a href="#">Правила сервиса 5Bit</a></label>
+					</div>
+				</div>
+				<button class="btn btn-block btn_blue btn_modal mt-5">ПРОДОЛЖИТЬ</button>
+			</form>
+		</div>
+		<div style="display: none;" id="forgot" class="small_modal cstm_modal">
+			<form action="#">
+				<h2 class="text-uppercase text-center">Забыли пароль?</h2>
+				<div class="form-group mb-4"><input type="email" class="form-control form_control" placeholder="Ваша эл. почта"></div>
+				<div class="pl-0 pr-0 pl-md-3 pr-md-3">
+					<p class="help_txt">Мы отправим вам новый пароль на Ваш зарегистрированный адрес электронной почты.</p>
+				</div>
+				<button class="btn btn-block btn_blue btn_modal mt-5">ОТПРАВИТЬ</button>
+			</form>
+		</div>
+		<div style="display: none;" id="log_in" class="small_modal cstm_modal">
+			<form action="#">
+				<h2 class="text-uppercase text-center">Авторизация</h2>
+				<div class="form-group mb-4"><input type="email" class="form-control form_control " placeholder="Ваша эл. почта"></div>
+				<div class="form-group mb-0"><input type="password" class="form-control form_control has_error" placeholder="Ваш пароль"></div>
+				<div class="pl-0 pr-0 pl-md-3 pr-md-3">
+					<a href="#" class="link_forgot">Забыли пароль?</a>
+				</div>
+				<div class="captcha_box pt-4 pb-4">
+					<img src="images/captcha.jpg" alt="" class="img-fluid">
+				</div>
+				<div class="pl-0 pr-0 pl-md-3 pr-md-3">
+					<p class="help_txt">Зарегистрировавшись, вы соглашаетесь с <a href="#">Правилами Сервиса</a> и <a href="#">Политика конфиденциальности</a> </p>
+				</div>
+				<button class="btn btn-block btn_blue btn_modal mt-4">ВОЙТИ</button>
+			</form>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/jcf.js"></script>
+		<script src="js/jcf.select.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
