@@ -606,3 +606,109 @@ select{
 		}
 	}
 }
+.accordion{
+	.card{
+		margin-bottom: 18px;
+		border: 0 !important;
+		border-radius: 0 !important;
+		.card-header{
+			border-radius: 0;
+			border: 0;
+			padding: 0;
+			background: #e0e0e0;
+			.btn{
+				display: block;
+				width: 100%;
+				text-align: left;
+				font-size: 30px;
+				line-height: 32px;
+				color: #58595b;
+				font-weight: 700;
+				text-transform: uppercase;
+				padding: 9px 5px 12px 55px;
+				position: relative;
+				border-radius: 0;
+				white-space: normal;
+				min-width: 0;
+				max-width: 100%;
+				display: block;
+				&:hover,&:active,&:focus{
+					text-decoration: none !important;
+				}
+				&:after{
+					content: '';
+					width: 14px;
+					height: 14px;
+					border: 0;
+					border-left: 2px solid #386aa0;
+					border-bottom: 2px solid #386aa0;
+					position: relative;
+					transform: rotate(135deg);
+					position: absolute;
+					top: 23px;
+					left: 20px;
+
+				}
+				&.collapsed{
+					&:after{
+						top: 17px;
+						transform: rotate(-45deg);
+					}
+				}
+				@include media-breakpoint-down(lg){
+					font-size: 25px;
+					line-height: 27px;
+					&:after{
+						top: 20px;
+					}
+					&.collapsed{
+						&:after{
+							top: 13px;
+						}
+					}
+					@include media-breakpoint-down(md){
+						font-size: 20px;
+						line-height: 22px;
+						padding-left: 35px;
+						&:after{
+							top: 18px;
+							left: 10px;
+						}
+						&.collapsed{
+							&:after{
+								top: 12px;
+							}
+						}
+					}
+				}
+			}
+		}
+		.card-body{
+			padding: 20px  55px;
+			@include media-breakpoint-down(md){
+				padding: 20px 0;
+			}
+			h3{
+				margin: 0;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 26px;
+				color: #58595b;
+				padding-bottom: 16px;
+
+			}
+			p{
+				margin: 0;
+				font-size: 14px;
+				line-height: 17px;
+				padding-bottom: 30px;
+			}
+		}
+	}
+}
+.gal_logos{
+	img{
+		display: block;
+		margin: 0 auto;
+	}
+}

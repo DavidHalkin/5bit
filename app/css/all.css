@@ -447,4 +447,34 @@ select { max-width: 100%; }
 
 @media (max-width: 991.98px) { .custom_container .contact_frm { margin-top: 0; } }
 
+.accordion .card { margin-bottom: 18px; border: 0 !important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+
+.accordion .card .card-header { -webkit-border-radius: 0; border-radius: 0; border: 0; padding: 0; background: #e0e0e0; }
+
+.accordion .card .card-header .btn { display: block; width: 100%; text-align: left; font-size: 30px; line-height: 32px; color: #58595b; font-weight: 700; text-transform: uppercase; padding: 9px 5px 12px 55px; position: relative; -webkit-border-radius: 0; border-radius: 0; white-space: normal; min-width: 0; max-width: 100%; display: block; }
+
+.accordion .card .card-header .btn:hover, .accordion .card .card-header .btn:active, .accordion .card .card-header .btn:focus { text-decoration: none !important; }
+
+.accordion .card .card-header .btn:after { content: ''; width: 14px; height: 14px; border: 0; border-left: 2px solid #386aa0; border-bottom: 2px solid #386aa0; position: relative; -webkit-transform: rotate(135deg); -ms-transform: rotate(135deg); transform: rotate(135deg); position: absolute; top: 23px; left: 20px; }
+
+.accordion .card .card-header .btn.collapsed:after { top: 17px; -webkit-transform: rotate(-45deg); -ms-transform: rotate(-45deg); transform: rotate(-45deg); }
+
+@media (max-width: 1199.98px) { .accordion .card .card-header .btn { font-size: 25px; line-height: 27px; }
+  .accordion .card .card-header .btn:after { top: 20px; }
+  .accordion .card .card-header .btn.collapsed:after { top: 13px; } }
+
+@media (max-width: 1199.98px) and (max-width: 991.98px) { .accordion .card .card-header .btn { font-size: 20px; line-height: 22px; padding-left: 35px; }
+  .accordion .card .card-header .btn:after { top: 18px; left: 10px; }
+  .accordion .card .card-header .btn.collapsed:after { top: 12px; } }
+
+.accordion .card .card-body { padding: 20px  55px; }
+
+@media (max-width: 991.98px) { .accordion .card .card-body { padding: 20px 0; } }
+
+.accordion .card .card-body h3 { margin: 0; font-weight: 400; font-size: 24px; line-height: 26px; color: #58595b; padding-bottom: 16px; }
+
+.accordion .card .card-body p { margin: 0; font-size: 14px; line-height: 17px; padding-bottom: 30px; }
+
+.gal_logos img { display: block; margin: 0 auto; }
+
 /*# sourceMappingURL=all.css.map */
