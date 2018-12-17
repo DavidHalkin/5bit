@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link href="https://fonts.googleapis.com/css?family=Exo+2:400,700,800&amp;subset=cyrillic" rel="stylesheet">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="css/custom_bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/libs.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/all.css" />
+
+		<title>#</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="w1">
+				<nav class="navbar-dark navbar navbar-expand-xl header fixed-top">
+					<a class="navbar-brand" data-fancybox="forgot" data-src="#forgot" href="javascript:;"><img src="images/logo.png" alt=""></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav ml-auto navbar_main">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Главная</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Купить/продать </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Связь с нами</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">О компании </a>
+							</li>
+						</ul>
+						<ul class="navbar-nav navbar_sub">
+							<li class="nav-item">
+								<a data-fancybox="log_in" data-src="#log_in" href="javascript:;" class="nav-link">Войти</a>
+							</li>
+							<li class="nav-item">
+								<a data-fancybox="reg" data-src="#reg" href="javascript:;" class="nav-link">Регистрация</a>
+							</li>
+							<li class="nav-item lang_link dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">rus</a>
+								<div class="dropdown-menu dropdown-menu-right lang_menu" aria-labelledby="navbarDropdownMenuLink">
+									<a class="dropdown-item" href="#">de</a>
+									<a class="dropdown-item" href="#">ua</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<div class="title_block text-center container-fluid" style="background: url(images/bg_4.jpg) no-repeat 50% 0;">
+					<div class="row justify-content-center">
+						<div class="col-lg-9">
+							<h1>Регистрация пользователя</h1>
+						</div>
+					</div>
+				</div>
+				<div class="exchange_block container-fluid pb-5 smartwizard_block">
+					<form action="#" id="myForm" role="form" data-toggle="validator" method="post" accept-charset="utf-8">
+						<div id="smartwizard">
+							<ul>
+								<li class="no_click"><a href="#step-1"><i class="icon mail_step"></i></a><span></span></li>
+								<li class="no_click"><a href="#step-2"><i class="icon phone_step"></i></a><span></span></li>
+								<li class="no_click"><a href="#step-3"><i class="icon card_step"></i></a><span></span></li>
+								<li class="no_click"><a href="#step-4"><i class="icon upload_step"></i></a> <span></span></li>
+								<li class="finish no_click"><a href="#step-5"><i class="icon success_step"></i></a><span></span></li>
+							</ul>
+							<div>
+								<div id="step-1">
+									<div class="row justify-content-center mt-5">
+										<div class="col-lg-5 col-md-7 text-center">
+											<p class="pb-4">Мы выслали код на вашу электронную почту: <strong>test@5bit.me</strong></p>
+											<div id="form-step-0" role="form" data-toggle="validator" class="custom_forms">
+												<div class="row justify-content-center">
+													<div class="col-md-6">
+														<div class="form-group mb-3">
+															<input type="email" class="form-control form_control" name="email" id="email" placeholder="Введите код сюда" required>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="step-2">
+									<div class="row justify-content-center mt-5">
+										<div class="col-lg-5 col-md-7 text-center">
+											<p class="pb-4">Мы выслали код на указанный вами мобильный номер.</p>
+											<div id="form-step-1" role="form" data-toggle="validator" class="custom_forms">
+												<div class="row justify-content-center">
+													<div class="col-xl-6">
+														<div class="form-group mb-3 text-left">
+															<select class="present" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+																<option class="hideme">Выберите тип карты</option>
+																<option  value="v4">Latvia (+371)</option>
+																<option  value="v5">Latvia (+371)</option>
+																<option  value="v6">Latvia (+371)</option>
+															</select>
+														</div>
+														<div class="form-group mb-3">
+															<input type="text" class="form-control form_control" name="phone" id="phone" placeholder="Enter your phone number" required>
+														</div>
+														<span class="help">Выслать код ещё раз можно через <span>4:59</span></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div> 
+								<div id="step-3">
+									<div class="row justify-content-center mt-5">
+										<div class="col-xl-5 col-lg-10">
+											<div id="form-step-2" role="form" data-toggle="validator" class="custom_forms">
+												<div class="row pb-3">
+													<div class="col-md-6">
+														<div class="form-group">
+															<input type="text" class="form-control form_control " placeholder="Ваше имя">
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<input type="text" class="form-control form_control " placeholder="Ваша Фамилия">
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<input type="text" class="form-control form_control " placeholder="Город проживания">
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<input type="text" class="form-control form_control " placeholder="Улица и номер дома">
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<input type="text" class="form-control form_control " placeholder="Почтовый индекс">
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+															<select class="present" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+																<option class="hideme">Выберите Страну</option>
+																<option  value="v4">Latvia (+371)</option>
+																<option  value="v5">Latvia (+371)</option>
+																<option  value="v6">Latvia (+371)</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="step-4" class="">
+									<div class="row justify-content-center mt-5 pb-2">
+										<div class="col-xl-7 col-lg-10">
+											<div id="form-step-3" role="form" data-toggle="validator" class="custom_forms">
+												<div class="row row_inf align-items-center mb-4  mb-md-3">
+													<div class="col-md-7 d-flex align-items-center mb-3 mb-md-0">
+														<div class="col_i">
+															<img src="images/ico1.png" alt="">
+														</div>
+														<div class="col_100">
+															<p>Загрузите ваше фото, на котором перед собой вы держите документ, удостоверяющий личность.</p>
+														</div>
+													</div>
+													<div class="col-md-5">
+														<div class="input-group">
+															<div class="custom-file">
+																<input type="file" class="custom-file-input" id="inputGroupFile02">
+																<label class="custom-file-label text-truncate" for="inputGroupFile02">Choose file</label>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="row row_inf align-items-center mb-4  mb-md-3">
+													<div class="col-md-7 d-flex align-items-center mb-3 mb-md-0">
+														<div class="col_i">
+															<img src="images/ico2.png" alt="">
+														</div>
+														<div class="col_100">
+															<p>Загрузите чёткое и понятное фото передней части вашего документа (паспорт, ID, права).</p>
+														</div>
+													</div>
+													<div class="col-md-5">
+														<div class="input-group">
+															<div class="custom-file">
+																<input type="file" class="custom-file-input" id="q1">
+																<label class="custom-file-label text-truncate" for="q1">Choose file</label>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="row row_inf align-items-center mb-4  mb-md-3">
+													<div class="col-md-7 d-flex align-items-center mb-3 mb-md-0">
+														<div class="col_i">
+															<img src="images/ico3.png" alt="">
+														</div>
+														<div class="col_100">
+															<p>Загрузите чёткое и понятное фото передней части вашего документа (паспорт, ID, права).</p>
+														</div>
+													</div>
+													<div class="col-md-5">
+														<div class="input-group">
+															<div class="custom-file">
+																<input type="file" class="custom-file-input" id="q12">
+																<label class="custom-file-label text-truncate" for="q12">Choose file</label>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="row row_inf align-items-center mb-4  mb-md-3">
+													<div class="col-md-7 d-flex align-items-center mb-3 mb-md-0">
+														<div class="col_i">
+
+														</div>
+														<div class="col_100">
+															<p>Cрок действия документа</p>
+														</div>
+													</div>
+													<div class="col-md-5">
+														<div class="form-group">
+															<input type="text" class="form-control form_control " placeholder="">
+														</div>
+													</div>
+												</div>
+												<div class="row row_inf align-items-center mb-4  mb-md-3">
+													<div class="col-md-7 d-flex align-items-center mb-3 mb-md-0">
+														<div class="col_i">
+															<img src="images/ico4.png" alt="">
+														</div>
+														<div class="col_100">
+															<p>Загрузите документ, подтверждающий ваше проживание по указанному адресу (счёт за интернет, счёт за квартиру и тд.).</p>
+														</div>
+													</div>
+													<div class="col-md-5">
+														<div class="input-group">
+															<div class="custom-file">
+																<input type="file" class="custom-file-input" id="q1y">
+																<label class="custom-file-label text-truncate" for="q1y">Choose file</label>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="step-5" class="">
+									<div class="row justify-content-center mt-5">
+										<div class="col-md-6 text-center">
+											<h2 class="pb-3">Успех!</h2>
+											<p class="mb-4">Вы подали на рассмотрение все необходимые документы. Пожалуйста, подождите пока мы всё проверим и свяжемся с вами по эл. почте в течение 48 часов.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer pl-3 pr-3 justify-content-center d-flex flex-column align-items-center">
+			<strong class="logo"><a href="#"><img src="images/logo_f.png" alt=""></a></strong>
+			<ul>
+				<li class="active"><a href="#">Главная</a></li>
+				<li><a href="#">Купить/продать</a></li>
+				<li><a href="#">Связь с нами</a></li>
+				<li><a href="#">О компании</a></li>
+			</ul>
+			<span class="copy">© 2018 5bit.me. All rights reserved 5bit.me.</span>
+		</div>
+		<div style="display: none;" id="reg" class="small_modal cstm_modal">
+			<form action="#">
+				<h2 class="text-uppercase text-center">регистрация</h2>
+				<div class="form-group mb-4"><input type="email" class="form-control form_control " placeholder="Ваша эл. почта"></div>
+				<div class="form-group mb-4"><input type="password" class="form-control form_control has_error" placeholder="Ваш пароль"></div>
+				<div class="form-group mb-3"><input type="password" class="form-control form_control" placeholder="Подтвердите пароль"></div>
+				<div class="pl-0 pr-0 pl-md-3 pr-md-3">
+					<div class="custom_checkbox">
+						<input type="checkbox" id="test1" />
+						<label for="test1">Соглашаюсь с <a href="#">Правила сервиса 5Bit</a></label>
+					</div>
+				</div>
+				<button class="btn btn-block btn_blue btn_modal mt-5">ПРОДОЛЖИТЬ</button>
+			</form>
+		</div>
+		<div style="display: none;" id="forgot" class="small_modal cstm_modal">
+			<form action="#">
+				<h2 class="text-uppercase text-center">Забыли пароль?</h2>
+				<div class="form-group mb-4"><input type="email" class="form-control form_control" placeholder="Ваша эл. почта"></div>
+				<div class="pl-0 pr-0 pl-md-3 pr-md-3">
+					<p class="help_txt">Мы отправим вам новый пароль на Ваш зарегистрированный адрес электронной почты.</p>
+				</div>
+				<button class="btn btn-block btn_blue btn_modal mt-5">ОТПРАВИТЬ</button>
+			</form>
+		</div>
+		<div style="display: none;" id="log_in" class="small_modal cstm_modal">
+			<form action="#">
+				<h2 class="text-uppercase text-center">Авторизация</h2>
+				<div class="form-group mb-4"><input type="email" class="form-control form_control " placeholder="Ваша эл. почта"></div>
+				<div class="form-group mb-0"><input type="password" class="form-control form_control has_error" placeholder="Ваш пароль"></div>
+				<div class="pl-0 pr-0 pl-md-3 pr-md-3">
+					<a href="#" class="link_forgot">Забыли пароль?</a>
+				</div>
+				<div class="captcha_box pt-4 pb-4">
+					<img src="images/captcha.jpg" alt="" class="img-fluid">
+				</div>
+				<div class="pl-0 pr-0 pl-md-3 pr-md-3">
+					<p class="help_txt">Зарегистрировавшись, вы соглашаетесь с <a href="#">Правилами Сервиса</a> и <a href="#">Политика конфиденциальности</a> </p>
+				</div>
+				<button class="btn btn-block btn_blue btn_modal mt-4">ВОЙТИ</button>
+			</form>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/jcf.js"></script>
+		<script src="js/jcf.select.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
+		<script src="js/jquery.smartWizard.min.js"></script>
+
+		<script src="js/main.js"></script>
+		<script src="js/steps_custom.js"></script>
+	</body>
+</html>

@@ -12,7 +12,8 @@
     "jquery": "^3.2.1",
     "fancybox": "^3.1.20",
     "jcf": "^1.2.3",
-    "bootstrap": "^4.1.1"
+    "bootstrap": "^4.1.1",
+    "smartwizard": "^4.3.1"
   },
   "devDependencies": {}
 }
