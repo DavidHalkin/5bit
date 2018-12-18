@@ -869,6 +869,8 @@ select{
 	}
 	.btn-toolbar{
 		justify-content:center !important;
+		opacity: 0;
+		visibility: hidden;
 		.sw-btn-prev{
 			display: none !important;
 		}

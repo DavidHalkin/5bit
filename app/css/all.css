@@ -537,7 +537,7 @@ select { max-width: 100%; }
 
 @media (max-width: 399.98px) { .smartwizard_block .nav-tabs { -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; } }
 
-.smartwizard_block .btn-toolbar { -webkit-box-pack: center !important; -webkit-justify-content: center !important; -ms-flex-pack: center !important; justify-content: center !important; }
+.smartwizard_block .btn-toolbar { -webkit-box-pack: center !important; -webkit-justify-content: center !important; -ms-flex-pack: center !important; justify-content: center !important; opacity: 0; visibility: hidden; }
 
 .smartwizard_block .btn-toolbar .sw-btn-prev { display: none !important; }
 
