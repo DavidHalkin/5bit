@@ -1295,13 +1295,17 @@ select{
 	width: 100%;
 	max-width: 390px;
 }
+.part_btns{
+	.btn{
+		font-size: 13px;
+	}
+}
 .table_filter{
 	@include media-breakpoint-down(sm) {
 		.maxw_390{
 			flex: 0 0 100%;
 			max-width: 100%;
 		}
-		
 		.export_btn{
 			display: block;
 			width: 100%;

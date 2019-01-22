@@ -162,6 +162,7 @@
 .profile_page{
 	.profile_header{
 		background: linear-gradient(to right, rgba(0,80,162,1) 0%,rgba(0,87,162,1) 13%,rgba(0,149,159,1) 75%,rgba(0,167,158,1) 100%);
+		background:rgba(#000,.5);
 	}
 	.header{
 		padding-top: 19px;
@@ -171,6 +172,28 @@
 		margin: 0 auto;
 		@include media-breakpoint-up(xl){
 			max-width: 75%;
+		}
+		.profile_main_nav {
+			li{
+				&:first-child{
+					a{
+						border-radius:  0 !important;
+					}
+				}
+				a{
+					&:hover{
+						background: #59a39d;
+					}
+				}
+			}
+		}
+		.dropdown-menu{
+			min-width: 100px;
+			padding: 5px !important;
+			.btn{
+				padding: 3px 10px !important;
+				font-size: 15px;
+			}
 		}
 		.navbar_sub{
 			padding-left: 0;

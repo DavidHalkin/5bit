@@ -224,11 +224,19 @@ textarea.form_control { height: 122px; }
 
 .header .navbar-nav .dropdown-menu_text a { color: #000 !important; display: block; padding: 0 15px !important; }
 
-.profile_page .profile_header { background: -webkit-gradient(linear, left top, right top, from(#0050a2), color-stop(13%, #0057a2), color-stop(75%, #00959f), to(#00a79e)); background: -webkit-linear-gradient(left, #0050a2 0%, #0057a2 13%, #00959f 75%, #00a79e 100%); background: -o-linear-gradient(left, #0050a2 0%, #0057a2 13%, #00959f 75%, #00a79e 100%); background: linear-gradient(to right, #0050a2 0%, #0057a2 13%, #00959f 75%, #00a79e 100%); }
+.profile_page .profile_header { background: -webkit-gradient(linear, left top, right top, from(#0050a2), color-stop(13%, #0057a2), color-stop(75%, #00959f), to(#00a79e)); background: -webkit-linear-gradient(left, #0050a2 0%, #0057a2 13%, #00959f 75%, #00a79e 100%); background: -o-linear-gradient(left, #0050a2 0%, #0057a2 13%, #00959f 75%, #00a79e 100%); background: linear-gradient(to right, #0050a2 0%, #0057a2 13%, #00959f 75%, #00a79e 100%); background: rgba(0, 0, 0, 0.5); }
 
 .profile_page .header { padding-top: 19px; padding-bottom: 19px; background: none; margin: 0 auto; }
 
 @media (min-width: 1200px) { .profile_page .header { max-width: 75%; } }
+
+.profile_page .header .profile_main_nav li:first-child a { -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+
+.profile_page .header .profile_main_nav li a:hover { background: #59a39d; }
+
+.profile_page .header .dropdown-menu { min-width: 100px; padding: 5px !important; }
+
+.profile_page .header .dropdown-menu .btn { padding: 3px 10px !important; font-size: 15px; }
 
 .profile_page .header .navbar_sub { padding-left: 0; }
 
@@ -749,6 +757,8 @@ select { max-width: 100%; }
 .with_ico img { position: absolute; top: 50%; left: 0; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); display: block; height: auto; max-width: 20px; }
 
 .maxw_390 { width: 100%; max-width: 390px; }
+
+.part_btns .btn { font-size: 13px; }
 
 @media (max-width: 767.98px) { .table_filter .maxw_390 { -webkit-box-flex: 0; -webkit-flex: 0 0 100%; -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; }
   .table_filter .export_btn { display: block; width: 100%; } }
