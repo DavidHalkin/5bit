@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<link href="https://fonts.googleapis.com/css?family=Exo+2:400,700,800&amp;subset=cyrillic" rel="stylesheet">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" type="text/css" href="css/custom_bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/libs.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/all.css" />
+
+		<title>#</title>
+	</head>
+	<body class="profile_page">
+		<div class="wrapper">
+			<div class="w1">
+				<div class="profile_header fixed-top">
+					<nav class="navbar-dark navbar navbar-expand-lg header">
+						<a class="navbar-brand" data-fancybox="forgot" data-src="#forgot" href="javascript:;"><img src="images/logo.png" alt=""></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavDropdown">
+							<ul class="list-unstyled profile_main_nav d-block d-lg-none">
+								<li><a href="#"><i class="icon icon_columns-solid"></i> <span>Dashboard</span></a></li>
+								<li><a href="#"><i class="icon icon_dashcube-brands"></i> <span>Transactions</span></a></li>
+								<li class="active"><a href="#"><i class="icon icon_sliders-h-solid"></i> <span>Settings</span></a></li>
+							</ul>
+							<ul class="navbar-nav navbar_sub ml-auto">
+								<li class="nav-item lang_link dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">sashasanki69@5bit.me</a>
+									<div class="dropdown-menu dropdown-menu-right px-3" aria-labelledby="navbarDropdownMenuLink">
+										<button class="btn btn-block btn_blue text-uppercase ">Выйти</button>
+									</div>
+								</li>
+								<li class="nav-item lang_link dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">rus</a>
+									<div class="dropdown-menu dropdown-menu-right lang_menu" aria-labelledby="navbarDropdownMenuLink">
+										<a class="dropdown-item" href="#">de</a>
+										<a class="dropdown-item" href="#">ua</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="container-fluid main_h">
+					<div class="row justify-content-center">
+						<div class="col-xl-9">
+							<div class="bg-white d-flex main_profile">
+								<div class="sidebar_profile d-none d-lg-block">
+									<ul class="list-unstyled m-0 profile_main_nav">
+										<li><a href="#"><i class="icon icon_columns-solid"></i> <span>Dashboard</span></a></li>
+										<li class="active"><a href="#"><i class="icon icon_dashcube-brands"></i> <span>Transactions</span></a></li>
+										<li><a href="#"><i class="icon icon_sliders-h-solid"></i> <span>Settings</span></a></li>
+									</ul>
+								</div>
+								<div class="content_profile">
+									<div class="main_title px-3 px-xl-5">
+										<h1 class="profile_title">Transactions</h1>
+									</div>
+									<div class="px-3 px-xl-5 pb-3 pb-xl-5">
+										<div class="table_filter d-flex flex-wrap mt-3 align-items-start pb-5">
+											<div class="mr-auto maxw_390">
+												<div class="row">
+													<div class="col-sm-6">
+														<div class="form-group row minw_0 mb-2">
+															<label for="z1" class="col-12 col-sm-auto col-form-label pr-0 font-weight-bold">From</label>
+															<div class="col minw_0 d-flex">
+																<input type="text" class="form-control form_control" id="z1" placeholder="dd.mm.yy.">
+															</div>
+														</div>
+													</div>
+													<div class="col-sm-6">
+														<div class="form-group row minw_0 mb-2">
+															<label for="z2" class="col-12 col-sm-auto col-form-label  pr-0 font-weight-bold">To</label>
+															<div class="col minw_0 d-flex">
+																<input type="text" class="form-control form_control" id="z2" placeholder="dd.mm.yy.">
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="part_btns d-flex justify-content-between pt-2 flex-wrap">
+													<button class="btn btn_blue text-uppercase px-4 my-2">все</button>
+													<button class="btn btn_blue text-uppercase px-4 my-2">новые</button>
+													<button class="btn btn_blue text-uppercase px-4 my-2">архив</button>
+												</div>
+											</div>
+											<button class="btn btn_blue text-uppercase px-3 export_btn mt-4 mt-md-0">export excel</button>
+										</div>
+										<div class="table-responsive table_responsive">
+											<table class="table table-borderless table_custom">
+												<thead>
+													<tr>
+														<th>Invoice</th>
+														<th>Deposit</th>
+														<th>Receive</th>
+														<th>Time</th>
+														<th>Status</th>
+														<th class="view_col">&#160;</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>
+															<a href="#" class="link">5B2918</a>
+														</td>
+														<td>
+															<div class="with_ico">
+																<p> <img src="images/ico_card.png" alt=""> Bank card</p>
+																<p class="small">100.00 €</p>
+															</div>
+														</td>
+														<td>
+															<div class="with_ico">
+																<p><img src="images/ico_btc.png" alt=""> BTC</p>
+																<p class="small">0.02717 BTC</p>
+															</div>
+														</td>
+														<td>
+															<p>19.12.2018</p>
+															<p>08:57</p>
+														</td>
+														<td>
+															<span class="text-success">yes</span>
+														</td>
+														<td class="view_col">
+															<a href="#" class="btn text-uppercase btn_gray_2"><i class="icon icon_search-solid"></i> <span>view</span></a>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a href="#" class="link">5B2918</a>
+														</td>
+														<td>
+															<div class="with_ico">
+																<p> <img src="images/ico_card.png" alt=""> Bank card</p>
+																<p class="small">100.00 €</p>
+															</div>
+														</td>
+														<td>
+															<div class="with_ico">
+																<p><img src="images/ico_xrp.png" alt=""> BTC</p>
+																<p class="small">0.02717 BTC</p>
+															</div>
+														</td>
+														<td>
+															<p>19.12.2018</p>
+															<p>08:57</p>
+														</td>
+														<td>
+															<span class="text-danger">yes</span>
+														</td>
+														<td class="view_col">
+															<a href="#" class="btn text-uppercase btn_gray_2"><i class="icon icon_search-solid"></i> <span>view</span></a>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer pl-3 pr-3">
+			<div class="row justify-content-center h-100 align-items-center">
+				<div class="col-xl-9 d-flex flex-wrap">
+					<ul class="mr-auto">
+						<li class="active"><a href="#">Главная</a></li>
+						<li><a href="#">Купить/продать</a></li>
+						<li><a href="#">Связь с нами</a></li>
+						<li><a href="#">О компании</a></li>
+					</ul>
+					<span class="copy">© 2018 5bit.me. All rights reserved 5bit.me.</span>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/jcf.js"></script>
+		<script src="js/jcf.select.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

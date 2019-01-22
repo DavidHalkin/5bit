@@ -1,0 +1,48 @@
+@import "_moon_variables.scss";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ooh4sj') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ooh4sj') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ooh4sj##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_search-solid {
+  &:before {
+    content: $icon_search-solid; 
+  }
+}
+.icon_columns-solid {
+  &:before {
+    content: $icon_columns-solid; 
+  }
+}
+.icon_dashcube-brands {
+  &:before {
+    content: $icon_dashcube-brands; 
+  }
+}
+.icon_sliders-h-solid {
+  &:before {
+    content: $icon_sliders-h-solid; 
+  }
+}
+
